@@ -1,0 +1,17 @@
+# For more details on the format and content:
+# https://github.com/robocorp/rcc/blob/master/docs/recipes.md#what-is-in-robotyamlttps://robocorp.
+
+tasks:
+  Produce traffic data work items:
+    robotTaskName: Produce traffic data work items
+  Consume traffic data work items:
+    robotTaskName: Consume traffic data work items
+
+condaConfigFile: conda.yaml
+artifactsDir: output
+PATH:
+  - .
+PYTHONPATH:
+  - .
+ignoreFiles:
+  - .gitignore
